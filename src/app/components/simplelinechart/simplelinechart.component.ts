@@ -120,7 +120,7 @@ export class SimplelinechartComponent implements OnInit {
                       },
                       {
                         note: {
-                          title: 'Section Four'
+                          title: 'Contact Me'
                         },
                         type: d3annotate.annotationCalloutCircle,
                         subject: {
@@ -136,7 +136,7 @@ export class SimplelinechartComponent implements OnInit {
                       },
                       {
                         note: {
-                          title: 'Medium Feed'
+                          title: 'Skills'
                         },
                         type: d3annotate.annotationCalloutCircle,
                         subject: {

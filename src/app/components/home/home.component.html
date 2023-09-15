@@ -1,10 +1,37 @@
+<head>
+  <title>Eric Bello - Data Science Portfolio</title>
+  <meta name="robots" content="follow, index" />
+  <meta content="Portfolio site showcasing data science projects." name="description" />
+  <meta
+    property="og:url"
+    content="https://data.ericnbello.com"
+  />
+  <link
+    rel="canonical"
+    href="https://data.ericnbello.com"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Eric Bello - Data Science Portfolio" />
+  <meta property="og:description" content="Portfolio site showcasing data science projects." />
+  <meta property="og:title" content="Eric Bello - Data Science Portfolio" />
+  <meta property="og:image" content="../../../src/assets/data.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ericnbello" />
+  <meta name="twitter:title" content="Eric Bello - Twitter" />
+  <meta name="twitter:description" content={meta.description} />
+  <!-- <meta name="twitter:image" content={meta.image} /> -->
+  <!-- {meta.date && (
+    <meta property="article:published_time" content={meta.date} />
+  )} -->
+</head>
+
 <!-- Navbar Component -->
 <app-navbar></app-navbar>
 
 <!-- Homepage html -->
 
 <!-- Top of Page With Opening Graphs Section -->
-
+<div>
 <div class="top">
   <div class="top-wrapper" id="top">
       <app-simplebarchart *ngIf="fakecasesbar" [data]="fakecasesbar">
@@ -29,23 +56,23 @@
     <div class="svg-wrapper-me">
       <!-- EDIT CONTENT BELOW -->
         <img alt="" class="photo-me" src="../../../assets/headshot.png" />
-        <h5 class="aboutme-context"><span class='highlight'><strong>Hey!</strong> I'm Eric, a <strong>Data Engineer</strong> passionate about [...].</span></h5>
-        <a href='/resume'  class="waves-effect waves-light btn square-btn navigate">My Resume</a>
+        <h5 class="aboutme-context"><span class=''>Hey! I'm Eric, a data enthusiast with a degree in computer engineering. Leveraging my entrepreneurial background, I'm now focused on excelling in data analysis for impactful contributions.</span></h5>
+        <a href='https://docs.google.com/document/d/1NF134-9lN_q5IqUZ1cCP5mf3G96IG8JhF6JVmaRoCGY/edit?usp=sharing'  class="waves-effect waves-light btn square-btn navigate">View Resume</a>
       </div>
     <div class="callout-wrapper">
-      <div class="svg-wrapper-callout1" >
-        <div class="call-out">
+      <!-- <div class="svg-wrapper-callout1" >
+        <div class="call-out"> -->
             <!-- EDIT CONTENT BELOW -->
-          <h5 class="aboutme-context"><span class='highlight'>Callout box</span></h5>  
+          <!-- <h5 class="aboutme-context"><span class='highlight'>Callout box</span></h5>  
         </div>
-      </div>
-      <div class="svg-wrapper-callout2">
-        <div class="call-out">
+      </div> -->
+      <!-- <div class="svg-wrapper-callout2">
+        <div class="call-out"> -->
               <!-- EDIT CONTENT BELOW -->
-          <h5 class="aboutme-context"><span class='highlight'>Another callout box</span>
+          <!-- <h5 class="aboutme-context"><span class='highlight'>Another callout box</span>
           </h5>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -65,10 +92,16 @@
       <div class='proj-wrapper'>
         <p class="project_description">
             <!-- EDIT CONTENT BELOW -->
-          <a href='/climate-change'><h5 class="project_title"><span class='highlight-title'>Alternating Least Squares Algorithm Project</span></h5></a>
+          <a href='#'>
+            <h5 class="project_title"><span class='highlight-title'>Streaming Media Site Analytics</span></h5>
+          </a>
             <span class='highlight-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </span>
         </p>
-        <a href='###' class="waves-effect waves-light btn square-btn navigate">Read more</a>
+        <div style="display: flex;">
+        <!-- <div> -->
+          <a href='https://streaming-web-app.firebaseapp.com' class="waves-effect waves-light btn square-btn navigate">View Demo</a>
+          <a href='https://github.com/ericnbello/entertainment-web-app#data-analysis' class="waves-effect waves-light btn square-btn navigate">Markdown</a>
+        </div>
       </div>
     </div>
 
@@ -77,11 +110,17 @@
       <div class='proj-wrapper'>
         <p class="project_description">
               <!-- EDIT CONTENT BELOW -->
-          <a href='###' target='_blank'><h5 class="project_title"><span class='highlight-title'>Project #2</span></h5></a>
+          <a href='###' target='_blank'>
+            <h5 class="project_title"><span class='highlight-title'>Weather Data Analytics</span></h5>
+          </a>
           <span class='highlight-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </span>
         </p>
-        <a href='###' class="waves-effect waves-light btn square-btn navigate">Explore</a>
+        <div style="display: flex;">
+        <!-- <div> -->
+          <a href='https://streaming-web-app.firebaseapp.com' class="waves-effect waves-light btn square-btn navigate">View Demo</a>
+          <a href='https://github.com/ericnbello/entertainment-web-app#data-analysis' class="waves-effect waves-light btn square-btn navigate">Markdown</a>
+        </div>
       </div>
     </div>
     <div class="project_two">
@@ -97,40 +136,44 @@
           <a href='###'><h5 class="project_title"><span class='highlight-title'>Project #3</span></h5></a>
           <span class='highlight-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
         </p>
-        <a href='###' class="waves-effect waves-light btn square-btn navigate">Read More</a>
-      </div>
+        <div style="display: flex;">
+        <!-- <div> -->
+          <a href='https://streaming-web-app.firebaseapp.com' class="waves-effect waves-light btn square-btn navigate">View Demo</a>
+          <a href='https://github.com/ericnbello/entertainment-web-app#data-analysis' class="waves-effect waves-light btn square-btn navigate">Markdown</a>
+        </div>
+      </div> 
     </div>
 
    
-  <div class="project_four_context">
+  <!-- <div class="project_four_context">
     <div class='proj-wrapper'>
-      <p class="project_description">
+      <p class="project_description"> -->
           <!-- EDIT CONTENT BELOW -->
-        <a href='###'><h5 class="project_title"><span class='highlight-title'>Project #4</span></h5></a>
+        <!-- <a href='###'><h5 class="project_title"><span class='highlight-title'>Project #4</span></h5></a>
           <span class='highlight-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
       </p>
       <a href='###' class="waves-effect waves-light btn square-btn navigate">Read More</a>
     </div>
   </div>
   <div class="project_four">
-  </div>
+  </div> -->
     
 
-    <div class="project_five">
+    <!-- <div class="project_five">
     </div>
 
     <div class="project_five_context">
       <div class='proj-wrapper'>
-        <p class="project_description">
+        <p class="project_description"> -->
             <!-- EDIT CONTENT BELOW -->
-          <a href='###'><h5 class="project_title"><span class='highlight-title'>Project #5</span></h5></a>
+          <!-- <a href='###'><h5 class="project_title"><span class='highlight-title'>Project #5</span></h5></a>
             <span class='highlight-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
         </p>
         <a href='###'  class="waves-effect waves-light btn square-btn navigate">Go to site</a>
       </div>
-    </div>
+    </div> 
 
-  </div>
+  </div> -->
 
   <!-- This is the projects content that will show on a mobile device -->
   <div class="projects-wrapper"  *ngIf="mobile">
@@ -201,36 +244,12 @@
   </div>
 </div> 
 
-<!-- Medium Post section (the Medium widget should already be loaded, just edit the handle below) -->
+<!-- Skills section -->
 <!-- EDIT CONTENT BELOW -->
-<!-- Change your medium handle below at the @ symbol -->
   <div class="mid1" id="medium">
-    <div class="medium-logo">
-      <img alt="" src="../../../assets/mediumlogo.svg" />
-      <h2>Publications</h2>
-    </div>
+    <div class="medium-header">Skills</div>
     <div class="medium-posts" >
-        <ngx-medium-widget resource="https://medium.com/@zdalexander"
-        postsLimit="4"
-        postsPerLine="1"
-        pictureSize="small"
-        [postfields]="['description', 'publishAt','claps']"
-        postRatio="landscape">
-      </ngx-medium-widget>
-
-
-    </div>
-  </div>
-
-
-<!-- Final section area (feel free to delete if you do not have any utility for it!) -->
-  <!-- EDIT CONTENT BELOW -->
-<div class="section4" id='section4'>
-  <div class="section4-header">Section 4</div>
-  <div class="info_div">
-    <div class="section4-content">
-      <p>You can put extra content here.
-      <ul>
+      <ul style="color: white;">
         <li><i class="material-icons">chevron_right</i>Item 1</li>
         <li><i class="material-icons">chevron_right</i>Item 2</li>
         <li><i class="material-icons">chevron_right</i>Item 3</li>
@@ -239,6 +258,37 @@
         <li><i class="material-icons">chevron_right</i>Item 6</li>
       </ul>
     </div>
+  </div>
+
+
+<!-- Contact form area -->
+  <!-- EDIT CONTENT BELOW -->
+  <div class="section4" id='section4'>
+    <div class="section4-header">Contact Me</div>
+    <div class="info_div">
+      <div class="section4-content">
+        <form
+        action="https://formspree.io/f/mknyqeay"
+        method="POST"
+      >
+        <label>
+          Your name:
+          <input type="text" name="name" id="name">
+        </label>
+        <label>
+          Your email:
+          <input type="email" name="email" id="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message" id="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+      <!-- <p>You can put extra content here.
+        
+      </div>
 
       <div class="parent">
         <div></div>
@@ -247,8 +297,10 @@
             <br>
             <a href='###' class="waves-effect waves-light btn square-btn rpubs">Button</a>
           </div>
-        <div></div>
-      </div>
+        <div>
+        </div>
+      </div> -->
+    </div>
   </div>
 </div>
 

@@ -397,7 +397,7 @@ svg.jumbobar {
 
 .project_one {
   // project photo 1 -- feel free to change
-  background: url('../../../assets/sample1.jpg') center center no-repeat;
+  background: url('../../../assets/entertainment-web-app-screenshot.png') center center no-repeat;
   background-size: cover;
   min-height: 400px;
   position: relative;
@@ -427,7 +427,7 @@ svg.jumbobar {
 
 .project_two {
   // project photo 2 -- feel free to change
-  background: url('../../../assets/sample2.jpg') center center no-repeat;
+  background: url('../../../assets/weather-screenshot.png') center center no-repeat;
   background-size: cover;
   min-height: 350px;
   min-width: 100%;
@@ -569,12 +569,18 @@ svg.jumbobar {
     padding: 1em 0em 4em 0em;
   }
 
-  .medium-logo {
-    margin: 3em auto 0em auto;
-
-    @include phone {
-      margin: 0;
-    }
+  .medium-header {
+    max-width: 325px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    font-size: 3em;
+    font-weight: 700;
+    // color: $Interaction-2-hex;
+    color: white;
+    font-family: 'Abril Fatface', 'Playfair Display', 'Roboto', 'Arial', sans-serif;
   }
 
   .medium-wrapper {
