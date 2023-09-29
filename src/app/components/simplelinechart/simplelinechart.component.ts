@@ -118,6 +118,22 @@ export class SimplelinechartComponent implements OnInit {
                         dy: 30,
                         dx: 30
                       },
+                      // {
+                      //   note: {
+                      //     title: 'Skills'
+                      //   },
+                      //   type: d3annotate.annotationCalloutCircle,
+                      //   subject: {
+                      //     radius: 5,
+                      //     radiusPadding: 0
+                      //   },
+                      //   className: 'mediumposts',
+                      //   color: ['#dddddd'],
+                      //   x: x(parseTime(datapull[anote4].date)),
+                      //   y: height - y(datapull[anote4].cases),
+                      //   dy: -20,
+                      //   dx: -90
+                      // },
                       {
                         note: {
                           title: 'Contact Me'
@@ -128,22 +144,6 @@ export class SimplelinechartComponent implements OnInit {
                           radiusPadding: 0
                         },
                         className: 'mywork',
-                        color: ['#dddddd'],
-                        x: x(parseTime(datapull[anote4].date)),
-                        y: height - y(datapull[anote4].cases),
-                        dy: -20,
-                        dx: -90
-                      },
-                      {
-                        note: {
-                          title: 'Skills'
-                        },
-                        type: d3annotate.annotationCalloutCircle,
-                        subject: {
-                          radius: 5,
-                          radiusPadding: 0
-                        },
-                        className: 'mediumposts',
                         color: ['#dddddd'],
                         x: x(parseTime(datapull[anote3].date)),
                         y: height - y(datapull[anote3].cases),
