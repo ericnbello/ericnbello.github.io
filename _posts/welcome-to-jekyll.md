@@ -1,8 +1,8 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
+title: "Viz 1"
+date: 2025-02-13
 categories:
-  - blog
+  - data viz
 tags:
   - Jekyll
   - update

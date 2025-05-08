@@ -1,10 +1,10 @@
 ---
 title: "World Layoffs"
-last_modified_at: 2025-02-10
+last_modified_at: 2025-01-30
 categories:
-  - Blog
-tags:
   - project
+tags:
+  - SQL, Tableau, data visualization
 ---
 
 # Layoffs Data Analysis: Data Cleaning & Exploratory Analysis
@@ -48,4 +48,4 @@ This project explores a dataset on company layoffs. The primary goal was to clea
 
 ## Demo
 
-Check out the [live Tableau dashboard](https://public.tableau.com/app/profile/ericnbello/viz/WorldLayoffs_17382760095000/CompaniesbyCountry) for an interactive exploration of the data.
+View the GitHub Repo [here](https://github.com/ericnbello/world-layoffs) or check out the live Tableau dashboard [here](https://public.tableau.com/app/profile/ericnbello/viz/WorldLayoffs_17382760095000/CompaniesbyCountry) for an interactive exploration of the data.

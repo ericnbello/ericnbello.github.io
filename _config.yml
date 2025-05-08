@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: ericnbello
 github_username: ericnbello
 minimal_mistakes_skin: contrast
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -63,30 +63,42 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ericnbello"
-    - label: "Tableau Public"
-      icon: "fas fa-fw fa-link"
-      url: "https://tableau"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ericnbello"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/ericnbello"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ericnbello"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
+    - label: "Tableau Public"
+      icon: "fas fa-fw fa-link"
+      url: "https://public.tableau.com/app/profile/ericnbello"
+    - label: "My Projects"
+      icon: "fas fa-fw fa-link"
+      url: "/categories/#project"
+    - label: "My Vizzes"
+      icon: "fas fa-fw fa-link"
+      url: "/categories/#data-viz"
+    - label: "Blog Posts"
+      icon: "fas fa-fw fa-link"
+      url: "/categories/#blog"
 
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ericnbello"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ericnbello"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/ericnbello"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ericnbello"
+    - label: "Tableau Public"
+      icon: "fab fa-fw fa-link"
+      url: "https://public.tableau.com/app/profile/ericnbello"
 
 defaults:
   # _posts
@@ -96,7 +108,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: false
       share: true
       related: true
