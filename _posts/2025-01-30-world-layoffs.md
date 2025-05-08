@@ -4,14 +4,10 @@ last_modified_at: 2025-01-30
 categories:
   - project
 tags:
-  - SQL, Tableau, data visualization
+  - SQL
+  - Tableau
+  - data visualization
 ---
-
-# Layoffs Data Analysis: Data Cleaning & Exploratory Analysis
-
-<!-- ![Layoffs Analysis Banner](/images/Layoff_employees.png) -->
-
-## Overview
 
 This project explores a dataset on company layoffs. The primary goal was to clean the data and conduct exploratory data analysis (EDA) to uncover trends, patterns, and outliers, ultimately setting the stage for interactive visualizations in Tableau.
 
