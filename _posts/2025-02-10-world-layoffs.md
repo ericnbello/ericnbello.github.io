@@ -1,5 +1,5 @@
 ---
-title: "Post: Modified Date"
+title: "World Layoffs"
 last_modified_at: 2025-02-10
 categories:
   - Blog
