@@ -3,9 +3,7 @@ title: "IoT Sensor Analytics"
 categories:
   - projects
 tags:
-  - plotly
   - python
-  - jupyter
 ---
 
 The rapid growth of IoT devices has led to an explosion of sensor data, offering unique opportunities for data-driven insights. In this post, I walk through a data analysis project where I utilized synthetic IoT sensor data to showcase skills in data manipulation, visualization, and analysis using Python.
