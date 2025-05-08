@@ -4,8 +4,8 @@ last_modified_at: 2025-01-30
 categories:
   - projects
 tags:
-  - SQL
-  - Tableau
+  - sql
+  - tableau
   - data visualization
 ---
 

@@ -3,10 +3,8 @@ title: "Weather Dashboard"
 categories:
   - projects
 tags:
-  - Plotly
-  - Python 
-  - Django
-  - AWS
+  - data visualization
+  - python
   - cloud
 ---
 
