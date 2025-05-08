@@ -77,7 +77,7 @@ author:
       url: "https://public.tableau.com/app/profile/ericnbello"
     - label: "My Projects"
       icon: "fas fa-fw fa-link"
-      url: "/categories/#project"
+      url: "/categories/#projects"
     - label: "My Vizzes"
       icon: "fas fa-fw fa-link"
       url: "/categories/#data-viz"
