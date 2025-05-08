@@ -2,7 +2,7 @@
 title: "World Layoffs"
 last_modified_at: 2025-01-30
 categories:
-  - project
+  - projects
 tags:
   - SQL
   - Tableau
