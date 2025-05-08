@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: ericnbello
 github_username: ericnbello
 minimal_mistakes_skin: contrast
-search: false
+search: true
 
 # Build settings
 markdown: kramdown
@@ -96,9 +96,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ericnbello"
-    - label: "Tableau Public"
-      icon: "fab fa-fw fa-link"
-      url: "https://public.tableau.com/app/profile/ericnbello"
+    # - label: "Tableau Public"
+    #   icon: "fab fa-fw fa-link"
+    #   url: "https://public.tableau.com/app/profile/ericnbello"
 
 defaults:
   # _posts
