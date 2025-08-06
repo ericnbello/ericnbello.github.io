@@ -1,27 +1,28 @@
-# Minimal Mistakes remote theme starter
+# Eric Bello | Data Analyst Portfolio
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Welcome to my portfolio!
 
-Contains basic configuration to get you a site with:
+I'm a **data analyst** with a background in computer engineering and a sharp eye for turning raw data into meaningful insights. I bring technical expertise, business awareness, and a problem-solving mindset to every project.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+### 🧠 What I Do
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- Analyze data using **SQL**, **Excel**, **Tableau**, and **Python**
+- Clean, explore, and visualize datasets to uncover trends
+- Communicate insights that support decision-making
+
+### 📁 Explore My Work
+
+- [Projects](https://ericnbello.github.io/categories/#projects) – End-to-end case studies using real-world data  
+- [Data Visualizations](https://ericnbello.github.io/categories/#data-viz) – Dashboards & visuals (Tableau, Excel, etc.)  
+- [Blog](https://ericnbello.github.io/categories/#blog) – Thoughts on learning, tools, and career growth  
+
+### 📬 Connect With Me
+
+- [LinkedIn](https://linkedin.com/in/ericnbello)  
+- [GitHub](https://github.com/ericnbello)  
+- [X](https://x.com/ericnbello)
+- [Tableau Public](https://public.tableau.com/app/profile/ericnbello)
 
 ---
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Thanks for visiting!
