@@ -12,9 +12,9 @@ I'm a **data analyst** with a background in computer engineering and a sharp eye
 
 ### 📁 Explore My Work
 
-- [Projects](https://ericnbello.github.io/categories/#projects) – End-to-end case studies using real-world data  
+- [Projects](https://ericnbello.github.io/projects) – End-to-end case studies using real-world data  
 - [Data Visualizations](https://ericnbello.github.io/categories/#data-viz) – Dashboards & visuals (Tableau, Excel, etc.)  
-- [Blog](https://ericnbello.github.io/categories/#blog) – Thoughts on learning, tools, and career growth  
+- [Blog](https://ericnbello.github.io/posts) – Thoughts on learning, tools, and career growth  
 
 ### 📬 Connect With Me
 
