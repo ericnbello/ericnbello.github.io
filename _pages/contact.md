@@ -40,6 +40,7 @@ I work with individuals and teams who want clear, actionable insights from their
 
     <!-- Right: Form -->
     <form
+      id="contact-form"
       action="https://formspree.io/f/xnnaaygb"
       method="POST"
       class="contact-form"
@@ -74,6 +75,10 @@ I work with individuals and teams who want clear, actionable insights from their
         Send message
       </button>
     </form>
+
+    <p id="form-success" class="form__success" hidden>
+      Thanks — your message has been sent. I’ll get back to you shortly.
+    </p>
 
   </div>
 </div>
@@ -154,4 +159,42 @@ I work with individuals and teams who want clear, actionable insights from their
 .contact-form button {
   margin-top: 0.5rem;
 }
+
+.form__success {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #6ee7b7;
+  font-size: 0.9rem;
+}
+
 </style>
+
+<script>
+  const form = document.getElementById("contact-form");
+  const success = document.getElementById("form-success");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      form.reset();
+      form.hidden = true;
+      success.hidden = false;
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  });
+</script>
