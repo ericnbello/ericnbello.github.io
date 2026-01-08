@@ -7,7 +7,7 @@ classes: wide
 sidebar: false
 ---
 
-<section class="hero">
+<section id="homepage_hero" class="hero">
   <h1 class="hero__name">Eric Bello</h1>
 
   <p class="hero__specialty">
