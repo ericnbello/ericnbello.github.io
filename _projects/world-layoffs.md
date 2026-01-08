@@ -1,12 +1,17 @@
 ---
 title: "World Layoffs"
-last_modified_at: 2025-01-30
+# date: 2025-01-30
+header:
+  teaser: 
+  excerpt: ""
+layout: single
 categories:
   - projects
 tags:
   - sql
   - tableau
   - data visualization
+author_profile: true
 ---
 
 This project explores a dataset on company layoffs. The primary goal was to clean the data and conduct exploratory data analysis (EDA) to uncover trends, patterns, and outliers, ultimately setting the stage for interactive visualizations in Tableau.

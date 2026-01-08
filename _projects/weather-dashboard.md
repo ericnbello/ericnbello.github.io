@@ -1,11 +1,17 @@
 ---
 title: "Weather Dashboard"
-categories:
-  - projects
-tags:
-  - data visualization
-  - python
-  - cloud
+# date: 2025-03-01
+header:
+  teaser: 
+  excerpt: ""
+layout: single
+# categories:
+#   - projects
+# tags:
+#   - data visualization
+#   - python
+#   - cloud
+author_profile: true
 ---
 
 The **Weather Forecast App** is a data-driven web application designed to deliver real-time weather updates. Built with Python and AWS Lambda, the app integrates data from the **OpenWeather API** to provide accurate forecasts, complemented by interactive visualizations created with **Plotly**.

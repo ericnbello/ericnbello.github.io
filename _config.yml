@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I’m a data analyst with a background in computer engineering, skilled in Python, SQL, and AWS. My passion lies in transforming raw data into actionable insights through data visualization and analysis. Whether uncovering trends or driving impactful solutions, I bring an analytical mindset and technical expertise to every project.
 twitter_username: ericnbello
 github_username: ericnbello
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: dark #contrast
 search: true
 
 # Build settings
@@ -27,7 +27,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -77,13 +77,18 @@ author:
       url: "https://public.tableau.com/app/profile/ericnbello"
     - label: "My Projects"
       icon: "fas fa-fw fa-link"
-      url: "/categories/#projects"
+      url: "/projects/"
     - label: "My Vizzes"
       icon: "fas fa-fw fa-link"
       url: "/categories/#data-viz"
-    - label: "Blog Posts"
+    - label: "Posts"
       icon: "fas fa-fw fa-link"
-      url: "/categories/#blog"
+      url: "/posts/"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 footer:
   links:
@@ -119,6 +124,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
 
 category_archive:
   type: liquid

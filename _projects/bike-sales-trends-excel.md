@@ -1,9 +1,15 @@
 ---
 title: "Analyzing Bike Sales Trends with Excel"
+# date: 2025-02-25
+layout: single
+header:
+  teaser: 
+  excerpt: ""
 categories:
   - projects
 tags:
   - excel
+author_profile: true
 ---
 
 Understanding customer behavior is key to driving sales. In this project, I analyzed a **bike sales dataset** to identify **patterns in customer demographics**, helping businesses make data-driven decisions.  

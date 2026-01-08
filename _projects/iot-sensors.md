@@ -1,9 +1,16 @@
 ---
 title: "IoT Sensor Analytics"
+layout: single
+header:
+  teaser: 
+  excerpt: ""
+# date: 2025-03-01
 categories:
   - projects
 tags:
   - python
+actions: https://github.com
+author_profile: true
 ---
 
 The rapid growth of IoT devices has led to an explosion of sensor data, offering unique opportunities for data-driven insights. In this post, I walk through a data analysis project where I utilized synthetic IoT sensor data to showcase skills in data manipulation, visualization, and analysis using Python.

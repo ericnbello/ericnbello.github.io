@@ -1,0 +1,51 @@
+$serif              : "Gabarito", "Lora", Georgia, Times, serif;
+$sans-serif  : "Be Vietnam Pro", "DM Sans", "Open Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$global-font-family : $sans-serif;
+$header-font-family : $serif;
+
+body {
+  font-family: "Be Vietnam Pro", "DM Sans", $sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gabarito", "Inter", $serif !important;
+}
+
+
+.page__content {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.015em;
+}
+
+.home-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 3rem);
+  font-weight: 600;
+}
+
+.home-tagline {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #666;
+}
+
+.greedy-nav a.site-title {
+  display: none;
+}
+
+.layout--splash .greedy-nav a.site-title {
+  display: block; // Required
+  width: 48px;     // Image width
+  height: 48px;    // Image height
+  background: url('/assets/images/bio-photo.png') no-repeat center center;
+  background-size: contain;
+  text-indent: -9999px;  // Push text off-screen
+  overflow: hidden;      // Hide text overflow
+  white-space: nowrap;   // Prevent line breaks
+  border-radius: 50%;
+}

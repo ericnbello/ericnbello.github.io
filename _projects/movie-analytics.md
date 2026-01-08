@@ -1,10 +1,16 @@
 ---
 title: "Exploring Film Industry Trends"
+# date: 2025-01-05
+header:
+  teaser: 
+  excerpt: ""
+layout: single
 categories:
   - projects
 tags:
   - data visualization
   - python
+author_profile: true
 ---
 
 This project analyzes a dataset of over 5,000 movies to uncover insights into the factors that influence box office success. Using Python for data cleaning, transformation, and visualization, I explored how variables like budget, revenue, genre, and release date affect a movie’s performance.
