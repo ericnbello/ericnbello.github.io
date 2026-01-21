@@ -5,9 +5,11 @@ $global-font-family : $sans-serif;
 $header-font-family : $serif;
 
 html {
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; /* for older IE */
+  -moz-text-size-adjust: 100%; /* for Firefox Mobile */
+}   
 
 body {
   font-family: "Be Vietnam Pro", "DM Sans", $sans-serif !important;

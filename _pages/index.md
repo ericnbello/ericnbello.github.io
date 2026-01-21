@@ -31,11 +31,12 @@ sidebar: false
   max-width: 960px;
   margin: 6rem auto 8rem;
   padding: 0 1rem;
+  min-height: 1vh; /* Triggers Safari repaint */
 }
 
 .hero__name {
   font-family: var(--serif-font, "Gabarito", serif);
-  font-size: clamp(3.5rem, 8vw, 5.75rem);
+  font-size: clamp(3.5rem, 40px + 2.5vw, 5.75rem);  
   font-weight: 700;
   letter-spacing: -0.03em;
   margin: 0;
@@ -79,5 +80,4 @@ sidebar: false
 .hero__cta:visited {
     color: #ffffff;
 }
- 
 </style>
