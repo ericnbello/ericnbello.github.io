@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import "custom";
+
+// .inital-content {
+//     flex: flex-grow !important;
+// }
+
+// .initial-content, .search-content {
+//     flex: 5 !important;
+//     justify-content: center !important;
+// }
+
+// .page__footer {
+//     margin-top: 0 !important;
+// }
+
+// .page__main {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
+
+// .page__content.home {
+//   justify-content: center;
+// }
+.hero {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;  // Vertical center
+  align-items: center;      // Horizontal center
+  text-align: center;       // Text center
+  padding: 2rem;
+}
+
+.layout--splash .initial-content {
+  flex: 1 0 auto;  // Grows to fill space, never shrinks
+  // display: flex;
+  // flex-direction: column;
+  justify-content: center;  // Vertical center
+  align-items: center;      // Horizontal center
+  text-align: center;       // Text center
+  padding: 2rem;
+}
+
+.layout--splash .page__footer {
+  flex-shrink: 0;  // Footer stays at bottom
+  margin-top: auto;
+}
+
+/* ===============================
+   Portfolio Grid 
+   =============================== */
+

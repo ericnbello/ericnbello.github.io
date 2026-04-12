@@ -1,0 +1,199 @@
+---
+permalink: /contact/
+title: "Contact"
+layout: single
+author_profile: true
+---
+
+Whether you're a recruiter, a potential collaborator, or just want to connect — feel free to reach out. I'm always open to interesting opportunities and conversations.
+
+<div class="page__content contact-page">
+  <div class="contact-grid">
+
+    <!-- Left: Contact Info -->
+    <div class="contact-info">
+      <h3>Get in touch</h3>
+      <p class="contact-subtext">
+        You can use the form or reach me directly:
+      </p>
+
+      <ul class="contact-list">
+        <li>
+          <img src="/assets/images/mail.svg" alt="" />
+          <a href="mailto:ericnbello@gmail.com">ericnbello@gmail.com</a>
+        </li>
+        <li>
+          <img src="/assets/images/logo-linkedin.svg" alt="" />
+          <a href="https://linkedin.com/in/ericnbello" target="_blank" rel="noopener">
+            ericnbello
+          </a>
+        </li>
+        <li>
+          <img src="/assets/images/logo-x.svg" alt="" />
+          <a href="https://x.com/ericnbello" target="_blank" rel="noopener">
+            @ericnbello
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right: Form -->
+    <form
+      id="contact-form"
+      action="https://formspree.io/f/xnnaaygb"
+      method="POST"
+      class="contact-form"
+    >
+      <label>
+        Name
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+
+      <label>
+        Reason for reaching out
+        <select name="reason" required>
+          <option value="">Select one</option>
+          <option value="job-opportunity">Job opportunity</option>
+          <option value="freelance-contract-work">Freelance / contract work</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="general-inquiry">General inquiry</option>
+        </select>
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+
+      <button type="submit" class="btn btn--primary">
+        Send message
+      </button>
+    </form>
+
+    <p id="form-success" class="form__success" hidden>
+      Thanks — your message has been sent. I’ll get back to you shortly.
+    </p>
+
+  </div>
+</div>
+
+<style>
+.contact-page {
+  margin-top: 2rem;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1.2fr;
+    align-items: start;
+  }
+}
+
+/* Left side */
+.contact-info h3 {
+  margin-top: 0;
+}
+
+.contact-subtext {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-list img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+}
+
+/* Form */
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #9ca3af;
+  color: #94a3b8;
+}
+
+.contact-form button {
+  margin-top: 0.5rem;
+}
+
+.form__success {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #6ee7b7;
+  font-size: 0.9rem;
+}
+
+</style>
+
+<script>
+  const form = document.getElementById("contact-form");
+  const success = document.getElementById("form-success");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      form.reset();
+      form.hidden = true;
+      success.hidden = false;
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  });
+</script>
