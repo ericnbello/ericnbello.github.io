@@ -26,11 +26,13 @@ sidebar: false
 <style>
    /* ---------- Hero ---------- */
 
+.page__content
 .hero {
   max-width: 960px;
   margin: 6rem auto 8rem;
   padding: 0 1rem;
   min-height: 1vh; /* Triggers Safari repaint */
+  align-content: center;
 }
 
 .hero__name {
@@ -79,4 +81,8 @@ sidebar: false
 .hero__cta:visited {
     color: #ffffff;
 }
+
+/* #homepage_hero {
+  align-content: center;
+} */
 </style>

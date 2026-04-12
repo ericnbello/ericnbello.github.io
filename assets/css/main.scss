@@ -28,9 +28,11 @@ search: false
 //   flex-direction: column;
 // }
 
-// .page__content.home {
-//   justify-content: center;
-// }
+.page__content.home {
+  justify-content: center;
+  margin-top: 1em;
+}
+
 .hero {
   display: flex !important;
   flex-direction: column !important;
@@ -48,6 +50,7 @@ search: false
   align-items: center;      // Horizontal center
   text-align: center;       // Text center
   padding: 2rem;
+  align-content: center
 }
 
 .layout--splash .page__footer {
