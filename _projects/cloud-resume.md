@@ -44,5 +44,5 @@ to a **DynamoDB** table on every page load. The entire deployment pipeline runs 
 
 ## Links
 
-- [Live Site]()
-- [GitHub Repository](https://github.com/ericnbello/)
+- [Live Site](https://cloud-resume.ericnbello.com)
+- [GitHub Repository](https://github.com/ericnbello/serverless)
