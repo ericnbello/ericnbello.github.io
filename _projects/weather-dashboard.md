@@ -3,7 +3,7 @@ title: "Weather Dashboard"
 # date: 2025-02-25
 layout: single
 header:
-  teaser: /assets/images/weather-dashboard-screenshot.png
+#   teaser: /assets/images/weather-dashboard-screenshot.png
   excerpt: "Serverless web app using AWS Lambda, S3, and CloudFront to serve real-time weather data."
 categories:
   - projects
