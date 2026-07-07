@@ -1,7 +1,6 @@
 ---
 layout: splash
 permalink: /
-# title: "Eric Bello | Data Analyst"
 author_profile: false
 classes: wide
 sidebar: false
@@ -11,11 +10,14 @@ sidebar: false
   <h1 class="hero__name">Eric Bello</h1>
 
   <p class="hero__specialty">
-    IT & Infrastructure Professional
+    IT & Security Professional
   </p>
 
   <p class="hero__summary">
-    Computer engineering background with hands-on experience in cloud, networking, and systems support. I build practical solutions and keep things running.
+    Computer Engineering background with hands-on experience in cloud, networking, and systems support — building toward security operations.
+  </p>
+   <p class="hero__summary">
+    CompTIA Network+ | Security+ | AWS Cloud Practitioner
   </p>
 
   <a href="/contact/" class="hero__cta">
@@ -31,7 +33,7 @@ sidebar: false
   max-width: 960px;
   margin: 6rem auto 8rem;
   padding: 0 1rem;
-  min-height: 1vh; /* Triggers Safari repaint */
+  min-height: 1vh;
   align-content: center;
 }
 
@@ -48,7 +50,7 @@ sidebar: false
   font-size: clamp(2rem, 4.5vw, 3rem);
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #00adb5; /*#94a3b8;*/
+  color: #00adb5;
   margin: 0.75rem 0 2rem;
 }
 
@@ -81,8 +83,4 @@ sidebar: false
 .hero__cta:visited {
     color: #ffffff;
 }
-
-/* #homepage_hero {
-  align-content: center;
-} */
 </style>
