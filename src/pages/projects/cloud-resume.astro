@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Cloud Resume Challenge | Eric Bello" description="AWS serverless infrastructure project by Eric Bello.">
+  <section class="project-hero shell narrow">
+    <div class="project-meta"><span>Cloud infrastructure</span><span>AWS · Python · CI/CD</span></div>
+    <h1>Cloud Resume Challenge</h1>
+    <p>A serverless AWS application built to demonstrate practical cloud infrastructure, automation, API integration, and application delivery.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="https://cloud-resume.ericnbello.com" target="_blank" rel="noopener noreferrer">Live site</a>
+      <a class="button button-secondary" href="https://github.com/ericnbello/serverless" target="_blank" rel="noopener noreferrer">View source</a>
+    </div>
+  </section>
+  <section class="case-study shell narrow">
+    <div class="case-section"><h2>Overview</h2><p>The frontend is hosted on S3 and delivered through CloudFront. A visitor counter uses API Gateway, a Python Lambda function, and DynamoDB. Infrastructure is provisioned through AWS SAM and CloudFormation, and GitHub Actions automates deployment.</p></div>
+    <div class="case-section"><h2>Environment</h2><ul class="detail-list"><li>S3 for static hosting</li><li>CloudFront for global delivery and HTTPS</li><li>Lambda for serverless backend logic</li><li>API Gateway for the visitor counter endpoint</li><li>DynamoDB for persistent visitor data</li><li>CloudFormation and SAM for infrastructure as code</li><li>GitHub Actions for continuous deployment</li></ul></div>
+    <div class="case-section"><h2>What I implemented</h2><p>I connected the frontend, API, serverless compute, and persistence layers into one working system, then moved the infrastructure into repeatable templates and automated the deployment workflow through GitHub.</p></div>
+    <div class="case-section emphasis"><h2>What this demonstrates</h2><p>Cloud resource configuration, serverless application design, deployment automation, infrastructure as code, DNS and TLS integration, and end to end ownership of a multi service AWS project.</p></div>
+  </section>
+</BaseLayout>

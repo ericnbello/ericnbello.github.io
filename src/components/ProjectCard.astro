@@ -1,0 +1,35 @@
+---
+import Architecture from './Architecture.astro';
+const { project } = Astro.props;
+---
+<article class="project-card">
+  <div class="project-copy">
+    <div class="project-topline">
+      <div class="project-meta"><span>{project.focus}</span></div>
+    </div>
+    <h3><a href={`/projects/${project.slug}/`}>{project.title}</a></h3>
+    <p class="project-summary">{project.summary}</p>
+
+    <div class="project-evidence">
+      <div>
+        <span>Built</span>
+        <p>{project.built}</p>
+      </div>
+      <div>
+        <span>Demonstrates</span>
+        <p>{project.demonstrates}</p>
+      </div>
+    </div>
+
+    <ul class="tech-list" aria-label={`${project.title} technologies`}>
+      {project.technologies.map((technology) => <li>{technology}</li>)}
+    </ul>
+
+    <div class="project-links">
+      <a class="text-link" href={`/projects/${project.slug}/`}>View case study <span aria-hidden="true">→</span></a>
+      {project.repo && <a href={project.repo} target="_blank" rel="noopener noreferrer">Source <span aria-hidden="true">↗</span></a>}
+      {project.live && <a href={project.live} target="_blank" rel="noopener noreferrer">Live <span aria-hidden="true">↗</span></a>}
+    </div>
+  </div>
+  <Architecture type={project.diagram} />
+</article>

@@ -1,0 +1,18 @@
+---
+interface Props { type: 'cloud' | 'identity' | 'weather'; }
+const { type } = Astro.props;
+const sets = {
+  cloud: ['Browser', 'CloudFront', 'S3 / API', 'Lambda', 'DynamoDB'],
+  identity: ['Windows client', 'AD DS', 'DNS / DHCP', 'Group Policy', 'Identity'],
+  weather: ['OpenWeather', 'Python', 'Django', 'Plotly', 'AWS']
+};
+const items = sets[type];
+---
+<div class="architecture" aria-label={`${type} architecture diagram`}>
+  {items.map((item, index) => (
+    <>
+      <span class="node">{item}</span>
+      {index < items.length - 1 && <span class="trace" aria-hidden="true"></span>}
+    </>
+  ))}
+</div>

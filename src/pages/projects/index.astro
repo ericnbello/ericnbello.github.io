@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { projects } from '../../data/projects';
+---
+<BaseLayout title="Projects | Eric Bello" description="Cloud, infrastructure, identity, and application projects by Eric Bello.">
+  <section class="page-hero shell">
+    <p class="page-context">Technical work</p>
+    <h1>Projects that show how I work.</h1>
+    <p>Cloud infrastructure, identity systems, and technical applications presented around the environment, implementation, and skills each project demonstrates.</p>
+  </section>
+  <section class="shell project-list page-projects">
+    {projects.map((project) => <ProjectCard project={project} />)}
+  </section>
+</BaseLayout>
