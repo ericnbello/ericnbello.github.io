@@ -1,28 +1,48 @@
-# Eric Bello Career Site — Polished v3
+# Eric Bello
 
-A purpose built Astro portfolio for IT infrastructure, cloud, and security job search.
+Personal portfolio and professional website for Eric Bello, an IT and security professional with a Computer Engineering background.
 
-## What changed in v3
+The site highlights hands on work across IT infrastructure, cloud computing, identity, networking, and security.
 
-- More bespoke hero composition with a lighter editorial layout
-- Credentials promoted into a recruiter friendly scan band
-- Stronger typography and spacing rhythm
-- Dark technical architecture panels for clearer project contrast
-- Improved project evidence hierarchy and recruiter scanability
-- Reduced template like card styling and removed strategy/meta copy
-- Refined hover, focus, mobile, contact, case study, and footer states
+## Portfolio
 
-## Local development
+Visit the live site:
 
-```bash
-npm install
-npm run dev
-```
+https://ericnbello.github.io
 
-## Production build
+## Technical Focus
 
-```bash
-npm run build
-```
+- IT infrastructure and technical support
+- Windows Server and Active Directory
+- Microsoft Entra ID and identity management
+- AWS cloud services
+- Networking and security fundamentals
+- Python and technical automation
 
-The GitHub Actions workflow in `.github/workflows/deploy.yml` is configured for GitHub Pages.
+## Featured Projects
+
+The portfolio includes projects covering:
+
+- AWS cloud infrastructure and serverless architecture
+- Active Directory and hybrid identity
+- Windows Server administration
+- Networking and infrastructure services
+- Python application development and API integration
+- Infrastructure automation and deployment workflows
+
+## Built With
+
+- Astro
+- HTML
+- CSS
+- JavaScript
+- GitHub Actions
+- GitHub Pages
+
+## Deployment
+
+The site is automatically built and deployed to GitHub Pages through GitHub Actions whenever changes are pushed to the `main` branch.
+
+## Contact
+
+Professional contact information is available through the website.
